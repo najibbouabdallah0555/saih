@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/index.css */
+
+/* Default dot color for light mode (black) */
+.slick-dots li button {
+    background-color: black; /* Black for light mode */
+  }
+  
+  /* Dot color for dark mode (white) */
+  @media (prefers-color-scheme: dark) {
+    .slick-dots li button {
+      background-color: white; /* White for dark mode */
+    }
+  }
